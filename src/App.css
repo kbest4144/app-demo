@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  overflow-wrap: break-word;
+  font-size: 2rem;
+}
+@media (max-Width : 413px){
+  .container{
+    width: 80%;
+    font-size: 1rem;
+  }
+}
+
+
